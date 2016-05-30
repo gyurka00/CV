@@ -28,6 +28,20 @@ app.controller('skillsController', ['$scope', function($scope) {
 app.controller('workExperienceController', ['$scope', function($scope) {
   $scope.workExperience = [
     {
+      time: 'May 2016 – currently',
+      title: 'Junior Front-end Developer',
+      company: 'EU Edge',
+      project: '*',
+      project_role: 'junior front-end developer',
+      tasks: [
+        'created HTML, CSS and JS',
+        'made test',
+        'code review with the other members',
+      ],
+      technologies: 'Javascript, HTML, CSS',
+      tools: 'Bower, Gulp, Jasmine, Karma, Jshint, AngularJS',
+    },
+    {
       time: 'February 2016 – March 2016',
       title: 'Software Developer',
       company: 'Green Fox Academy',
