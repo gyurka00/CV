@@ -15,31 +15,45 @@ app.controller('summaryController', ['$scope', function($scope) {
 
 app.controller('skillsController', ['$scope', function($scope) {
   $scope.skills = [
-    {type: 'Technologies', description: 'C, C++, JavaScript, HTML, CSS, Python'},
-    {type: 'Tools', description: ' Heroku, NewRelic, Logentries, CodeShip, Gulp, Jasmine, Karma, Jshint, Sass, Node.js, AngularJS, superTest, Express'},
+    {type: 'Technologies', description: 'JavaScript, HTML, CSS'},
+    {type: 'JavaScript libraries', description: ' React, AngularJS, Node.js, Express'},
     {type: 'SourceControl', description: 'Git, SVN'},
     {type: 'Methodology', description: 'Scrum, TDD, BDD'},
     {type: 'Databases', description: 'MySQL, PostgreSQL, MongoDB'},
-    {type: 'OS', description: 'Windows, Linux'},
-    {type: 'IDE', description: 'Atom, Eclipse, Microsoft Visual Studio, CodeBlocks, Notepad++'},
+    {type: 'OS', description: 'Windows, Linux, OSX'},
+    {type: 'IDE', description: 'Atom, Eclipse, Microsoft Visual Studio'},
   ];
 }]);
 
 app.controller('workExperienceController', ['$scope', function($scope) {
   $scope.workExperience = [
-    {
-      time: 'May 2016 – currently',
-      title: 'Junior Front-end Developer',
-      company: 'EU Edge',
-      project: '*',
-      project_role: 'junior front-end developer',
+     {
+      time: 'August 2018 – nowadays',
+      title: 'Software Developer',
+      company: 'Code and Soda',
+      project: 'ecommerce site',
+      project_role: 'front-end developer',
       tasks: [
         'created HTML, CSS and JS',
         'made test',
         'code review with the other members',
       ],
       technologies: 'Javascript, HTML, CSS',
-      tools: 'Bower, Gulp, Jasmine, Karma, Jshint, AngularJS',
+      tools: '',
+    },
+    {
+      time: 'May 2016 – July 2018',
+      title: 'Front-end Developer',
+      company: 'EU Edge',
+      project: 'ecommerce site, stabel crypto tokens (Augmint)',
+      project_role: 'front-end developer',
+      tasks: [
+        'created HTML, CSS and JS',
+        'made test',
+        'code review with the other members',
+      ],
+      technologies: 'Javascript, HTML, CSS',
+      tools: 'AngularJS, React',
     },
     {
       time: 'February 2016 – March 2016',
